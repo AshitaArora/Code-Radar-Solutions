@@ -3,11 +3,11 @@
 
 
 int main() {
-  char b;
+  
    int a;
-   scanf("%x",&b);
+   scanf("%x",&a);
    scanf("%o",&a);
-   printf("Hexadecimal: %x\n",b);
+   printf("Hexadecimal: %x\n",a);
    printf("Octal: %o",a);
 
     return 0;
