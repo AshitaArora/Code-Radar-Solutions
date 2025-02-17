@@ -1,28 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
+
 
 int main() {
-    int a, b;
+    int a,b;
     char c;
-
-    // Taking input
-   
-    scanf("%d %d %c", &a, &b, &c);
-
-    // Performing operations
-    if (c == '+') {
-        printf("%d\n", a + b);
-    } else if (c == '-') {
-        printf("%d\n", a - b);
-    } else if (c == '*') {
-        printf("%d\n", a * b);
-    } else if (c == '/') {
-        if (b == 0) {
-            printf("Error.\n");
-        } else {
-            printf("%d\n", a / b);
-        }
-    } 
+    scanf("%d %d %c",&a,&b,&c);
+    switch(c){
+        case '+':printf("%d",a+b);break;
+        case '-':printf("%d",a-b);break;
+        case '*':printf("%d",a*b);break;
+        case '/':if (b == 0) 
+                printf("error");
+            else 
+                printf("%d",a / b); 
+            break;
     }
-
     return 0;
 }
