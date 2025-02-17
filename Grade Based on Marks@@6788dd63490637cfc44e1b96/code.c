@@ -10,7 +10,7 @@ if(a>=90){
 
 }if(a>=70 && a<80){
     printf("C");
-}if(a<70){
+}if( a>=60 &&a<70){
     printf("D");
 }if(a<60){
     printf("F");
