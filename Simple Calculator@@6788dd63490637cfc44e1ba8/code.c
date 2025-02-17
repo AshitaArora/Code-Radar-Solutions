@@ -5,7 +5,7 @@ int main() {
     char c;
 
     // Taking input
-    printf("Enter two numbers and an operator: ");
+   
     scanf("%d %d %c", &a, &b, &c);
 
     // Performing operations
@@ -21,8 +21,7 @@ int main() {
         } else {
             printf("%d\n", a / b);
         }
-    } else {
-        printf("Error: Invalid operator.\n");
+    } 
     }
 
     return 0;
