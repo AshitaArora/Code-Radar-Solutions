@@ -17,7 +17,7 @@ int main() {
         printf("%d\n", a * b);
     } else if (c == '/') {
         if (b == 0) {
-            printf("Error: Division by zero is not allowed.\n");
+            printf("Error.\n");
         } else {
             printf("%d\n", a / b);
         }
