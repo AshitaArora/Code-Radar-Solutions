@@ -8,9 +8,9 @@ if(a%3==0 && a%5==0){
     printf("Divisible by Both");
 }else if(a%3==0){
     printf("Divisible by 3");
-} elseif(a%5==0){
+} else if(a%5==0){
     printf("Divisible by 5");
-    elseif{
+    else if{
     printf("Not Divisible");
 }
 
