@@ -9,9 +9,9 @@ if(a>=90){
     printf("B");
 
 }if(a>=70 && a<80){
-    printf("C")
+    printf("C");
 }if(a<70){
-    printf("D")
+    printf("D");
 }if(a<60){
     printf("F");
 }
