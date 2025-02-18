@@ -39,6 +39,9 @@ break;
 case 12:
 printf("31");
 break;
+else{
+    printf("Invalid month");
+}
 
 
 
