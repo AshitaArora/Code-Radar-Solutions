@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
 int n,j,i;
-scanf("%d %d %d",&n,&i,&j);
+scanf("%d",&n);
 for(i=1;i<=n;i++){
-    if(i=1 || i=n){
+    if(i==1 || i==n){
         for(j=1;j<=n;j++){
             printf("*");
         }
     }
     else{
-        if(j=1 || j=n){
+        if(j==1 || j==n){
             printf("*");
         }
         else{
