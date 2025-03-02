@@ -10,7 +10,7 @@ for(i=1;i<=n;i++){
     }
     else{
         for(j=1;j<=n;j++){
-        if(j==2 || j==n){
+        if(j==1 || j==n){
             printf("*");
         }
         else{
