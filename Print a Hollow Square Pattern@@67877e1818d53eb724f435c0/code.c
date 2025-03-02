@@ -9,13 +9,14 @@ for(i=1;i<=n;i++){
         }
     }
     else{
-        if(j==1 || j==n){
+        for(j=1;j<=n;j++){
+        if(j==2 || j==n){
             printf("*");
         }
         else{
             printf(" ");
         }
-
+        }
     }printf("\n");
 }
 
