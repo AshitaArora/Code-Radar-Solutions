@@ -9,7 +9,7 @@ for(i=1;i<=n;i++){
         }
     }
     else{
-        if(j=1||j=n){
+        if(j=1 || j=n){
             printf("*");
         }
         else{
