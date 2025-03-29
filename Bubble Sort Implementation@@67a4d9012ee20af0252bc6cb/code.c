@@ -22,8 +22,8 @@ int main(){
     for(int i =0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubbleSort(int arr[],int n);
-    printArray(int arr[],int n);
+    bubbleSort(arr[],n);
+    printArray( arr[], n);
     return 0;
 
 }
