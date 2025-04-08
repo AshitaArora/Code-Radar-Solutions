@@ -5,7 +5,7 @@ int main(){
     int i,len;
     scanf("%s",str);
     len = strlen(str);
-    for(i=0;i<len;i++){
+    for(i=0;i<len/2;i++){
         if(str[i]==str[len-i-1]){
             printf("Yes");
         }else{
