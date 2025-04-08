@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     int i,len;
-    char str[5],temp;
+    char str[100],temp;
     scanf("%s",str);
     len = strlen(str);
     for(i=0;i<len/2;i++){
