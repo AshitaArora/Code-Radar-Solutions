@@ -6,9 +6,9 @@ int isPrime(int n){
         if(n%i==0){
             sum +=1;
         }
-    }if(sum>2){
-        return 0;
-    }else{
+    }if(sum==2){
         return 1;
+    }else{
+        return 0;
     };
 }
