@@ -8,7 +8,7 @@ for(int i=1;i<=n;i++){
         sum = +1;
     }
 }if(sum>2){
-    printf(" NotPrime");
+    printf("Not Prime");
 }else{
     printf("Prime");
 }
