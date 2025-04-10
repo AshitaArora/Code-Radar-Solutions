@@ -12,7 +12,7 @@ int main(){
             issorted=1;
             break;
         }
-    }  if(isSorted=1) {
+    }  if(issorted=1) {
         printf("Sorted\n");
     } else {
         printf("Not Sorted\n");
