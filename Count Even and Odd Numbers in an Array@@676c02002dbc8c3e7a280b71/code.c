@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int sum=0,sum1=0;
-    for(i=0;i<n-1;i++){
+    for(int i=0;i<n-1;i++){
         if(arr[i]%2==0){
             sum += 1;
         }else{
