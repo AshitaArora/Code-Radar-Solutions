@@ -10,7 +10,7 @@ int main(){
         }
     }
     for(int i = 0;i<n;i++){
-        if((large - arr[i]) !=0 && (large - arr[i])<small){
+        if((large - arr[i]) !=0 && (large - arr[i])>small){
             small = (large-arr[i]);
             index=i;
         }
