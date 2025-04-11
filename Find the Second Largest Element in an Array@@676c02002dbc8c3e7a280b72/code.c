@@ -8,8 +8,9 @@ int main(){
         if(arr[i]>=large){
             large = arr[i];
         }
-        printf("%d",large);
+        
     }
+    printf("%d",large);
 
     return 0;
 }
