@@ -16,7 +16,7 @@ int main(){
         }
 
     }
-    printf("%d",large);
+    printf("%d",arr[index]);
 
     return 0;
 }
